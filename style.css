@@ -6,3 +6,10 @@ canvas {
     display: block;
     position: relative;
 }
+#navigation {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    
+}

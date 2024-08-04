@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let context = canvas.getContext('2d');
     let startX;
     let startY;
+    let endX;
+    let endY;
     let clicked = false;
     let finished = false;
     
