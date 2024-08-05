@@ -1,0 +1,27 @@
+button {
+    padding: 0.5rem 3rem;
+}
+
+#input {
+    margin-bottom: 0.3rem;
+}
+
+#input-container {
+    display: none;
+}
+
+#pop-up {
+    position: absolute;
+    display: none;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+#pop-up:hover {
+    display: block;
+}
+
+#button-container {
+    display: inline-block;
+    background-color: gainsboro;
+    padding: 0.2rem;
+}

@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notion-like builder</title>
     <script src="builder.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Builder</h1>
     
     <div id="content"></div>
-    <div id="input"></div>
-    <button type="button">+</button>
+    <div id="input-container">
+        <input type="text" name="" id="input">
+        <input type="button" value="Add" id="add">
+    </div>
+    
+    <div id="button-container">
+        <button type="button" id="button">+</button>
+        <div id="pop-up">Some multiline content</div>
+    </div>
+    
     
 </body>
 </html>
